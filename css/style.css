@@ -1,0 +1,37 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Slab&family=Parisienne&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+
+body{
+	font-family:'Josefin Slab', serif;
+	font-size: 18px;
+}
+
+h1{
+	font-family:'Parisienne', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	text-align:center;
+}
+
+h2, h3{
+	font-family:'Courgette', cursive;
+	font-size:26px;
+}
+a{
+	text-decoration: none;
+	color: orange;
+	font-weight:bold;
+	transition: color 0.6s ease
+}
+
+a:hover{
+	color: orange;
+}
+
